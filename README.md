@@ -3,7 +3,7 @@
 > **Note**  
 > This is a note
 
-> **Note**  
+> **Note**\
 > 
 > This is a note
 
