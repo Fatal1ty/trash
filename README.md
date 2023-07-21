@@ -3,6 +3,10 @@
 > **Note**  
 > This is a note
 
+> **Note**
+> 
+> This is a note
+
 > **Warning**  
 > This is a warning
 
