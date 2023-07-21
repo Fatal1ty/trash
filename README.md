@@ -1,5 +1,4 @@
 > [!WARNING]\
-> 
 > No syntax highlighting anymore:
 > 
 > ```python
