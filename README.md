@@ -6,12 +6,13 @@
 > ```
 
 > [!WARNING]\
+> 
 > No syntax highlighting anymore:
 > ```python
 > print("hello world")
 > ```
 
-> Hmm
+> Syntax hilighting works if the title was removed
 > ```python
 > print("hello world")
 > ```
