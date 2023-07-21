@@ -1,16 +1,15 @@
-> [!WARNING]\
-> No syntax highlighting:
-> ```python
-> print("hello world")
-> ```
-
 > **Warning**
 > 
-> Syntax highlighting works:
+> This was used to highlight Warning and code block:
 > ```python
 > print("hello world")
 > ```
 
+> [!WARNING]\
+> No syntax highlighting anymore:
+> ```python
+> print("hello world")
+> ```
 
 
 **With spaces as line breaks**
