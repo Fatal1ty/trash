@@ -1,13 +1,7 @@
-> **Warning**
-> 
-> This was used to highlight Warning and code block:
-> ```python
-> print("hello world")
-> ```
-
 > [!WARNING]\
 > 
 > No syntax highlighting anymore:
+> 
 > ```python
 > print("hello world")
 > ```
