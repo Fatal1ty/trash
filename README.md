@@ -1,6 +1,12 @@
 > [!WARNING]\
 > Here is the python code:
+> ```python
+> print("hello world")
+> ```
+
+> **Warning**
 > 
+> Here is the python code:
 > ```python
 > print("hello world")
 > ```
