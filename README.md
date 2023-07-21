@@ -1,3 +1,14 @@
+> [!Warning]\
+> If you need to save a reference to `from_*` or `to_*` method, you should
+> do it after the method is compiled. To be safe, you can always use lambda
+> function:
+> ```python
+> from_dict = lambda x: MyModel.from_dict(x)
+> to_dict = lambda x: x.to_dict()
+> ```
+
+
+
 **With spaces as line breaks**
 
 > **Note**  
