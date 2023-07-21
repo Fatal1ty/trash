@@ -1,12 +1,12 @@
 > [!WARNING]\
-> Here is the python code:
+> No syntax highlighting:
 > ```python
 > print("hello world")
 > ```
 
 > **Warning**
 > 
-> Here is the python code:
+> Syntax highlighting works:
 > ```python
 > print("hello world")
 > ```
