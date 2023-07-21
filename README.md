@@ -1,7 +1,7 @@
 > [!WARNING]\
 > No syntax highlighting anymore:
 > 
-> ```python
+> ```python\
 > print("hello world")
 > ```
 
