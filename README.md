@@ -10,14 +10,14 @@ section describes all supported options to use in `metadata` mapping.
 If you don't want to remember the names of the options you can use
 `field_options` helper function:
 >
-> ```python
-> from dataclasses import dataclass, field
-> from mashumaro import field_options
+>```python
+>from dataclasses import dataclass, field
+>from mashumaro import field_options
 >
-> @dataclass
-> class A:
+>@dataclass
+>class A:
 >    x: int = field(metadata=field_options(...))
-> ```
+>```
 
 > [!WARNING]\
 > If you need to save a reference to `from_*` or `to_*` method, you should
