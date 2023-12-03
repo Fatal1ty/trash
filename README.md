@@ -1,3 +1,24 @@
+### Field options
+
+In some cases creating a new class just for one little thing could be
+excessive. Moreover, you may need to deal with third party classes that you are
+not allowed to change. You can use [`dataclasses.field`](https://docs.python.org/3/library/dataclasses.html#dataclasses.field) function to
+configure some serialization aspects through its `metadata` parameter. Next
+section describes all supported options to use in `metadata` mapping.
+
+> [!TIP]\
+If you don't want to remember the names of the options you can use
+`field_options` helper function:
+>
+> ```python
+> from dataclasses import dataclass, field
+> from mashumaro import field_options
+>
+> @dataclass
+> class A:
+>    x: int = field(metadata=field_options(...))
+> ```
+
 > [!WARNING]\
 > If you need to save a reference to `from_*` or `to_*` method, you should
 > do it after the method is compiled. To be safe, you can always use lambda
