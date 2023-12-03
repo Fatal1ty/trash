@@ -6,7 +6,7 @@ not allowed to change. You can use [`dataclasses.field`](https://docs.python.org
 configure some serialization aspects through its `metadata` parameter. Next
 section describes all supported options to use in `metadata` mapping.
 
-> [!TIP]\
+> 💡 Tip
 If you don't want to remember the names of the options you can use
 `field_options` helper function:
 >
